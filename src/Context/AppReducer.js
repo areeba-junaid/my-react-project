@@ -1,4 +1,4 @@
-export default (state,action)=>{
+export default function Reducer(state,action){
     switch(action.type)
     {  case'ADD_TRANSACTION':
            return{
